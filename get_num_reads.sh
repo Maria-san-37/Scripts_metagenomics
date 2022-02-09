@@ -1,4 +1,6 @@
 #!/bin/bash
+# María del Carmen
+# This script is to get the number of reads from your files (libraries)
 sample_file=$1
 samples_files=($(cut -f 1 "$sample_file" | uniq ))
 
