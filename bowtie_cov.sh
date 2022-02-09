@@ -4,6 +4,7 @@ set -u
 set -o pipefail
 ## Author: Maria del Carmen Sanchez
 #####
+## This script is for mapping reads with bowtie
 ##1) PATH WHERE READS AND ASSEMBLIES ARE e.g /home/maria/Data/Referencias
 ##2) FILE WITH only the forward name of the libraries 
 ##This program is to generate alignments for the reads and their assemblies and assign coverage per contig
