@@ -27,12 +27,9 @@ cd $1
 
 
 C='_SPa'
-MAG='_Mag'
 FAS='.fasta'
 FASQ='.fastq'
-CDhit='_CDhit'
 TEM='_temp'
-S='.sam'
 T='_tmp'
 STR=''
 
