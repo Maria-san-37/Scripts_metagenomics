@@ -1,5 +1,9 @@
 #!/usr/bin/bash
-# Author: María del Carmen Sánchez
+set -e
+set -u
+set -o pipefail
+
+## Author: María del Carmen Sánchez
 ## Provide:
 ## 1) File with the names of the assemblies
 
