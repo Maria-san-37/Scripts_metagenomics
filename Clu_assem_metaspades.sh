@@ -1,7 +1,6 @@
 #!/bin/bash
-
-## Descripción:
-##  Este programa recibe:
+#author: María del Carmen Sánchez (cluster)
+## Provide:
 ## 1) Path where the files are.
 ## 2) Name of the file that have a list of the libraries of DNA to analyze. (forward and reverse)
 ## 3) Types of files to process: 1 -fasta, 2-fasta.gz, 3-fastq and 4-fastq.gz
@@ -9,7 +8,7 @@
 #Command example to use in the cluster:
 ## qsub -R y -l h_rt=23:59:59 -t 1-4 Clu_assem_spades.sh  /scratch/mcsanchez/Data/ libraries.txt 4
 
-# Nombre del proceso
+# Name of the job
 #$ -N  Clu_assem_spades
 #$ -l h_vmem=30G #how much memory do use to do the assembly
 # Stderr (output and standard error) in the same dircetory: 
